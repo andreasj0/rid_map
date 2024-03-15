@@ -50,9 +50,9 @@ int main() {
     }
     oss << "}\n";
 
-    // Print the JSON string
-    std::cout << oss.str() << std::endl;
+    // Print the map as a JSON format
+    std::string rid_output = oss.str();
+    std::cout << rid_output << std::endl;
     
     return 0;
 }
-
